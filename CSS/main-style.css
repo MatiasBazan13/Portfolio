@@ -1,3 +1,74 @@
+@media (max-width:500px){
+  .link {
+    font-weight: 600;
+    text-decoration: none;
+    margin: 10px 0px;
+    color: rgb(93, 93, 93);
+  }
+  .link:hover {
+    color: #000;
+  }
+  .caja-presentacion {
+    background: url(https://i1.wp.com/enclaveinformatico.com/wp-content/uploads/2020/05/Portada.jpeg?ssl=1);
+    background-clip: text;
+    max-width: 100%;
+    height: 35vh;
+  }
+  .saludo-principal {
+    margin: 2rem 1rem;
+    text-align: center;
+    font-weight: 200;
+    font-size: 2.8em;
+    color: #fff;
+  }
+  .texto-principal {
+    display: none;
+  }
+  .caja-enlace{
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .enlace-principal {
+    padding: 15px 12px;
+    font-weight: bold;
+    color: #fff;
+    background: rgba(74, 143, 83, 0.836);
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  .caja-perfil {
+    padding: 30px 40px;
+  }
+  .cuadro-perfil1 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 200;
+  }
+  .cuadro-perfil2 {
+    margin: 2rem 0rem;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+  .img-habilidad{
+    margin: 5px;
+  }
+  .caja-proyectos{
+    background: rgba(0, 31, 97, 0.829);
+    max-width: 100%;
+    height: 10vh;
+    border-radius: 0px 0px 15px 15px;
+    margin-bottom: 50px;
+  }
+  .titulo-proyectos{
+    text-align: center;
+    color: #fff;
+    font-weight: 200;
+    font-size: 2em;
+    padding: 1rem 0rem;
+  }
+}
+/*
 .link {
   font-weight: 600;
   text-decoration: none;
@@ -7,10 +78,11 @@
 .link:hover {
   color: #000;
 }
+
 .caja-presentacion {
   background: url(https://i1.wp.com/enclaveinformatico.com/wp-content/uploads/2020/05/Portada.jpeg?ssl=1);
   background-clip: text;
-  width: 100%;
+  max-width: 100%;
   height: 80vh;
 }
 .presentacion {
@@ -42,6 +114,7 @@
   text-decoration: none;
   border-radius: 10px;
 }
+
 .navegador {
   background: rgb(250, 250, 250);
 }
@@ -49,10 +122,12 @@
   padding: 30px 40px;
 }
 .cuadro-perfil1 {
+  text-align: center;
   font-size: 1.5em;
   font-weight: 200;
 }
 .cuadro-perfil2 {
+  text-align: center;
   font-size: 1.5em;
   font-weight: 500;
 }
