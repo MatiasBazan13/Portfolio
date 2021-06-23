@@ -96,7 +96,6 @@
   }
   .proyecto2{
     text-align: center;
-    border-bottom: 1px solid #000;
     margin-bottom: 0px;
     padding-bottom: 4rem;
   }
@@ -107,9 +106,9 @@
     font-weight: 700;
   }
   footer{
+    border-radius: 25px 25px 0px 0px;
     background: rgb(0, 31, 97);
     width: 100%;
-    height: 25vh;
   }
   .caja-footer{
     text-align: center;
@@ -120,6 +119,7 @@
     padding: 2rem 0rem;
   }
 }
+
 /*
 .link {
   font-weight: 600;
