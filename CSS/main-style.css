@@ -5,7 +5,7 @@
     margin: 10px 0px;
     color: rgb(93, 93, 93);
   }
-  .link:hover {
+  .link:active {
     color: #000;
   }
   .caja-presentacion {
@@ -32,7 +32,7 @@
     padding: 15px 12px;
     font-weight: bold;
     color: #fff;
-    background: rgba(74, 143, 83, 0.836);
+    background: rgba(231, 231, 231, 0.363);
     text-decoration: none;
     border-radius: 10px;
   }
@@ -120,6 +120,11 @@
   }
 }
 
+a{
+  text-decoration: none;
+  color: #fff;
+  user-select: none;
+}
 /*
 .link {
   font-weight: 600;
