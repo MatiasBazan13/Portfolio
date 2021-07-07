@@ -1,5 +1,5 @@
-@media (max-width:767px){
-  .img-saludo-principal{
+@media (max-width: 767px) {
+  .img-saludo-principal {
     display: none;
   }
   .link {
@@ -18,7 +18,7 @@
     max-width: 100%;
     height: 45vh;
   }
-  .estructura-presentacion{
+  .estructura-presentacion {
     background: rgba(255, 255, 255, 0.062);
     backdrop-filter: blur(2px);
     height: 100%;
@@ -30,7 +30,7 @@
     font-size: 2.8em;
     color: #fff;
   }
-  .caja-enlace{
+  .caja-enlace {
     text-align: center;
     margin-bottom: 4rem;
   }
@@ -56,16 +56,16 @@
     font-size: 1.5em;
     font-weight: 500;
   }
-  .img-habilidad{
+  .img-habilidad {
     margin: 5px;
   }
-  .caja-proyectos{
+  .caja-proyectos {
     background: rgba(0, 31, 97, 0.829);
     width: 100vw;
-    height: 10vh;
+    height: 15vh;
     margin-bottom: 40px;
   }
-  .titulo-proyectos{
+  .titulo-proyectos {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -74,64 +74,64 @@
     font-size: 2em;
     padding: 1.3rem 0rem;
   }
-  
-  .proyecto1{
+
+  .proyecto1 {
     text-align: center;
     padding-top: 2rem;
     border-bottom: 1px solid #000;
     margin-bottom: 100px;
   }
-  .img-proyecto1{
+  .img-proyecto1 {
     width: 20rem;
     height: 8rem;
     border: 1px solid #000;
     border-radius: 10px;
   }
-  .titulo-proyecto1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  .titulo-proyecto1 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     font-size: 1.5em;
     font-weight: 700;
   }
-  .desc-proyecto1{
+  .desc-proyecto1 {
     padding: 2rem 4rem 0rem 4rem;
     font-weight: 500;
     text-align: center;
   }
-  .enlace-proyecto1{
+  .enlace-proyecto1 {
     margin: 1rem 1rem;
     width: 3rem;
     padding-bottom: 2rem;
   }
-  .proyecto2{
+  .proyecto2 {
     text-align: center;
     margin-bottom: 0px;
     padding-bottom: 4rem;
   }
-  .titulo-proyecto2{
+  .titulo-proyecto2 {
     text-transform: uppercase;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     font-size: 1.5em;
     font-weight: 700;
   }
-  footer{
+  footer {
     border-radius: 25px 25px 0px 0px;
     background: rgba(0, 31, 97, 0.829);
     width: 100%;
   }
-  .caja-footer{
+  .caja-footer {
     text-align: center;
     color: #fff;
     font-weight: 200;
   }
-  .contacto{
+  .contacto {
     padding: 2rem 0rem;
   }
 }
 
-
-
-@media(min-width:768px) and (max-width:1023px){
-  .img-saludo-principal{
+@media (min-width: 768px) and (max-width: 1023px) {
+  .img-saludo-principal {
     display: none;
   }
   .link {
@@ -143,21 +143,21 @@
   .link:active {
     color: #000;
   }
-  
+
   .caja-presentacion {
     background: url(https://i1.wp.com/enclaveinformatico.com/wp-content/uploads/2020/05/Portada.jpeg?ssl=1);
     background-clip: text;
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
-    height: 35vh;
+    height: 50vh;
   }
-  .estructura-presentacion{
+  .estructura-presentacion {
     background: rgba(255, 255, 255, 0.062);
     backdrop-filter: blur(2px);
     height: 100%;
   }
-  .caja-saludo{
+  .caja-saludo {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -185,42 +185,43 @@
     font-size: 1.5em;
     font-weight: 500;
   }
-  .img-habilidad{
+  .img-habilidad {
     margin: 5px;
   }
-  .caja-proyectos{
+  .caja-proyectos {
     background: rgba(0, 31, 97, 0.829);
     max-width: 100%;
-    height: 10vh;
+    height: 15vh;
     margin-bottom: 50px;
   }
-  .titulo-proyectos{
+  .titulo-proyectos {
     display: flex;
     justify-content: center;
     text-align: center;
     color: #fff;
     font-weight: 400;
     font-size: 3em;
-    padding: 1.5rem 0rem;
+    padding: 10px 0px;
   }
-  
-  .proyecto1{
+
+  .proyecto1 {
     text-align: center;
     padding-top: 0rem;
     margin-bottom: 100px;
   }
-  .img-proyecto1{
+  .img-proyecto1 {
     width: 20rem;
     height: 9rem;
     border-radius: 10px;
     border: 1px solid #000;
   }
-  .titulo-proyecto1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  .titulo-proyecto1 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     font-size: 1.8em;
     font-weight: 600;
   }
-  .desc-proyecto1{
+  .desc-proyecto1 {
     padding-top: 8px;
     margin-left: auto;
     margin-right: auto;
@@ -229,38 +230,38 @@
     font-weight: 400;
     text-align: center;
   }
-  .enlace-proyecto1{
+  .enlace-proyecto1 {
     margin: 1rem 1rem;
     width: 3rem;
   }
-  .proyecto2{
+  .proyecto2 {
     text-align: center;
   }
-  .titulo-proyecto2{
+  .titulo-proyecto2 {
     text-transform: uppercase;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     font-size: 1.8em;
     font-weight: 600;
   }
-  footer{
+  footer {
     border-radius: 25px 25px 0px 0px;
     background: rgba(0, 31, 97, 0.829);
     width: 100%;
   }
-  .caja-footer{
+  .caja-footer {
     text-align: center;
     color: #fff;
     font-weight: 200;
     font-size: 1.5em;
   }
-  .contacto{
+  .contacto {
     padding: 2rem 0rem;
   }
 }
 
-
-@media(min-width:1024px) and (max-width:1440px){
-  .img-saludo-principal{
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .img-saludo-principal {
     transform: scaleX(-1);
     margin-top: 4rem;
     width: 10rem;
@@ -275,21 +276,21 @@
   .link:active {
     color: #000;
   }
-  
+
   .caja-presentacion {
     background: url(https://i1.wp.com/enclaveinformatico.com/wp-content/uploads/2020/05/Portada.jpeg?ssl=1);
     background-clip: text;
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
-    height: 45vh;
+    height: 50vh;
   }
-  .estructura-presentacion{
+  .estructura-presentacion {
     background: rgba(255, 255, 255, 0.062);
     backdrop-filter: blur(2px);
     height: 100%;
   }
-  .caja-saludo{
+  .caja-saludo {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -318,41 +319,42 @@
     font-size: 1.8em;
     font-weight: 500;
   }
-  .img-habilidad{
+  .img-habilidad {
     margin: 5px;
   }
-  .caja-proyectos{
+  .caja-proyectos {
     background: rgba(0, 31, 97, 0.829);
     max-width: 100%;
-    height: 10vh;
+    height: 15vh;
     margin-bottom: 50px;
   }
-  .titulo-proyectos{
+  .titulo-proyectos {
     display: flex;
     justify-content: center;
     color: #fff;
     font-weight: 400;
     font-size: 3em;
-    padding: 1rem 0rem;
+    padding: 10px 0px;
   }
-  
-  .proyecto1{
+
+  .proyecto1 {
     text-align: center;
     padding-top: 0rem;
     margin-bottom: 100px;
   }
-  .img-proyecto1{
+  .img-proyecto1 {
     width: 25rem;
     height: 12rem;
     border-radius: 10px;
     border: 1px solid #000;
   }
-  .titulo-proyecto1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  .titulo-proyecto1 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     font-size: 2em;
     font-weight: 600;
   }
-  .desc-proyecto1{
+  .desc-proyecto1 {
     padding-top: 8px;
     margin-left: auto;
     margin-right: auto;
@@ -361,38 +363,38 @@
     font-weight: 400;
     text-align: center;
   }
-  .enlace-proyecto1{
+  .enlace-proyecto1 {
     margin: 1rem 1rem;
     width: 3rem;
   }
-  .proyecto2{
+  .proyecto2 {
     text-align: center;
   }
-  .titulo-proyecto2{
+  .titulo-proyecto2 {
     text-transform: uppercase;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     font-size: 1.8em;
     font-weight: 600;
   }
-  footer{
+  footer {
     border-radius: 25px 25px 0px 0px;
     background: rgba(0, 31, 97, 0.829);
     width: 100%;
   }
-  .caja-footer{
+  .caja-footer {
     text-align: center;
     color: #fff;
     font-weight: 200;
     font-size: 1.5em;
   }
-  .contacto{
+  .contacto {
     padding: 2rem 0rem;
   }
 }
 
-a{
+a {
   text-decoration: none;
   color: #fff;
   user-select: none;
 }
-
